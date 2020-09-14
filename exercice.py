@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
     # TODO completer la fonction
-    return nom('(?<=^)[a-z]|(?<=\s)[a-z]', '{}', s).format(*map(str.upper, re.findall('(?<=^)[a-z]|(?<=\s)[a-z]', s)))
+    return nom('(?<=^)[a-z]|(?<=\s)[a-z]', '{}', s).format(*map(str.upper, re.findall('(?<=^)[a-z]|(?<=\s)[a-z]', s))
 
 
 if __name__ == '__main__':
