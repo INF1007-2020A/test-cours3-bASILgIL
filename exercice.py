@@ -21,5 +21,5 @@ if __name__ == '__main__':
     ]
     for i in range(len(pays)):
         pays[i] = capitaliser_pays(pays[i])
-
+pays
     print(pays)
