@@ -23,5 +23,3 @@ if __name__ == '__main__':
         pays[i] = capitaliser_pays(pays[i]).capitalize()
 
     print(pays)
-
-    
