@@ -20,6 +20,6 @@ if __name__ == '__main__':
         'azerBaijaN'
     ]
     for i in range(len(pays)):
-        pays[i] = capitaliser_pays(pays[i])
+        pays[i] = capitaliser_pays(pays[i]).capitalize()
 
     print(pays)
